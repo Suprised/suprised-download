@@ -159,7 +159,7 @@
     <servlet-name>default</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
-
+<!--
   <servlet
     id="jsp"
   >
@@ -177,14 +177,11 @@
       <param-name>xpoweredBy</param-name>
       <param-value>false</param-value>
     </init-param>
-    <!--  
-    <init-param>
-        <param-name>classpath</param-name>
-        <param-value>?</param-value>
-    </init-param>
-    -->
+      
+    
+    
     <load-on-startup>0</load-on-startup>
-  </servlet>
+  </servlet>-->
 
   <servlet-mapping>
     <servlet-name>jsp</servlet-name>
